@@ -134,7 +134,7 @@
       }
     },
     {
-      "label": "Large Purches",
+      "label": "Large Purchases ",
       "values": [
         {
           "label": "Car",
@@ -163,7 +163,7 @@
         "columns": null
       },
       "id": "Field_04tpvca",
-      "key": "largePurches",
+      "key": "largePurchases",
       "description": "Please add any large purchases you've made this year",
       "validate": {
         "required": true
