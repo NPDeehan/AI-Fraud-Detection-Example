@@ -1,0 +1,48 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "075168c"
+  },
+  "schemaVersion": 18,
+  "id": "Form_g8eouuh",
+  "components": [
+    {
+      "text": "### Tax Return  Check Form\nI don't have time to build a front end, so you just need to guess... Fraud or no Fraud?",
+      "type": "text",
+      "id": "Heading_0",
+      "layout": {
+        "row": "row_0",
+        "columns": null
+      }
+    },
+    {
+      "label": "Fraud",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0ghpm8o",
+        "columns": null
+      },
+      "id": "Field_0obtm2e",
+      "key": "fraudDetected",
+      "description": "👆Tick the fraud box"
+    },
+    {
+      "label": "Reason for Decision",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0wsk0xa",
+        "columns": null
+      },
+      "id": "Field_1p3319m",
+      "key": "expertAnalysis",
+      "validate": {
+        "required": true,
+        "minLength": 10
+      }
+    }
+  ],
+  "generated": true,
+  "type": "default"
+}
