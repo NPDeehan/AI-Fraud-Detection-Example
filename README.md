@@ -36,3 +36,4 @@ For this example to work you'll need to create secrets with the following names:
 Once you have both accounts, it's pretty easy to get started. Upload the BPMN model and the Forms to a Camunda Modeler project in Camunda 8. From the modeler you can run the process in Play or deploy it to a cluster.
 
 If deployed to a cluster you have the option to start the process from the Modeler or from Tasklist.
+(There's one more option of course, you can deploy directly to Camunda SaaS and start process instances from GitHub, you can also do this using GitHub actions - [see this example](https://github.com/MaxTru/deploy-to-camunda-cloud-gha) from Max.)
