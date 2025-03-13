@@ -1,6 +1,7 @@
 # AI Fraud Detection Example
 
 This is an example used for a tutorial where you can build an AI Agent in BPMN with Camunda to determin fraud. 
+The best way to understand how this whole thing works is watch this [video tutorial](https://vimeo.com/1060483066) and [read this blog post](https://camunda.com/blog/2025/02/building-ai-agent-camunda/)
 
 ## How it works
 ![alt](./img/AdHocTokenSim.gif)
@@ -36,3 +37,4 @@ For this example to work you'll need to create secrets with the following names:
 Once you have both accounts, it's pretty easy to get started. Upload the BPMN model and the Forms to a Camunda Modeler project in Camunda 8. From the modeler you can run the process in Play or deploy it to a cluster.
 
 If deployed to a cluster you have the option to start the process from the Modeler or from Tasklist.
+(There's one more option of course, you can deploy directly to Camunda SaaS and start process instances from GitHub, you can also do this using GitHub actions - [see this example](https://github.com/MaxTru/deploy-to-camunda-cloud-gha) from Max.)
