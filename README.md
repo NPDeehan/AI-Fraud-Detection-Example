@@ -1,6 +1,7 @@
 # AI Fraud Detection Example
 
 This is an example used for a tutorial where you can build an AI Agent in BPMN with Camunda to determin fraud. 
+The best way to understand how this whole thing works is watch this [video tutorial](https://vimeo.com/1060483066) and [read this blog post](https://camunda.com/blog/2025/02/building-ai-agent-camunda/)
 
 ## How it works
 ![alt](./img/AdHocTokenSim.gif)
