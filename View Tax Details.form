@@ -3,13 +3,13 @@
   "executionPlatformVersion": "8.6.0",
   "exporter": {
     "name": "Camunda Web Modeler",
-    "version": "075168c"
+    "version": "6ad2448"
   },
   "schemaVersion": 18,
   "id": "Form_g8eouuh",
   "components": [
     {
-      "text": "### Tax Return  Check Form\nI don't have time to build a front end, so you just need to guess... Fraud or no Fraud?",
+      "text": "### Tax Return  Check Form\n\n",
       "type": "text",
       "id": "Heading_0",
       "layout": {
@@ -18,10 +18,72 @@
       }
     },
     {
+      "text": "##### Personal Information for {{fullName}}",
+      "type": "text",
+      "layout": {
+        "row": "Row_1d5te2o",
+        "columns": null
+      },
+      "id": "Field_196svhq"
+    },
+    {
+      "label": "Total Income",
+      "type": "number",
+      "layout": {
+        "row": "Row_18ur9zx",
+        "columns": null
+      },
+      "id": "Field_02v3ewc",
+      "key": "totalIncome",
+      "readonly": "on"
+    },
+    {
+      "label": "Total Expenses",
+      "type": "number",
+      "layout": {
+        "row": "Row_18ur9zx",
+        "columns": null
+      },
+      "id": "Field_19mdvpd",
+      "key": "totalExpenses",
+      "readonly": "on"
+    },
+    {
+      "label": "They Made the following Purchess",
+      "type": "checklist",
+      "layout": {
+        "row": "Row_05517p6",
+        "columns": null
+      },
+      "id": "Field_06qv27h",
+      "key": "largePurchases",
+      "valuesExpression": "=largePurchases",
+      "readonly": true
+    },
+    {
+      "label": "They made dontaions to the following charities",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_05517p6",
+        "columns": null
+      },
+      "id": "Field_01f4lbh",
+      "key": "charitableDonations",
+      "readonly": "on"
+    },
+    {
+      "type": "separator",
+      "layout": {
+        "row": "Row_0qyyr05",
+        "columns": null
+      },
+      "id": "Field_01vpxd3"
+    },
+    {
       "label": "Fraud",
       "type": "checkbox",
       "layout": {
-        "row": "Row_0ghpm8o",
+        "row": "Row_1t21ih8",
         "columns": null
       },
       "id": "Field_0obtm2e",
@@ -32,7 +94,7 @@
       "label": "Reason for Decision",
       "type": "textarea",
       "layout": {
-        "row": "Row_0wsk0xa",
+        "row": "Row_1iv5bt9",
         "columns": null
       },
       "id": "Field_1p3319m",
